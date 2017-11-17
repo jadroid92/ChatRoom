@@ -1,4 +1,4 @@
-package in.jadroid;
+package in.jadroid.chatroom;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

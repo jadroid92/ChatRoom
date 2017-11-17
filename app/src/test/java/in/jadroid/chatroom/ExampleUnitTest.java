@@ -1,4 +1,4 @@
-package in.jadroid;
+package in.jadroid.chatroom;
 
 import org.junit.Test;
 

@@ -1,11 +1,54 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/editText_textColor</item>
+        <item name="colorControlActivated">@color/editText_textColor</item>
     </style>
+
+    <style name="NoActionbarTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/splashColor</item>
+    </style>
+
+
+    <style name="AppTextInputLayoutTheme">
+        <item name="android:textColorHint">@color/editText_textColor</item>
+        <item name="colorControlNormal">@color/editText_textColor</item>
+        <item name="colorControlActivated">@color/editText_textColor</item>
+        <item name="colorControlHighlight">@color/editText_textColor</item>
+    </style>
+
+    <style name="AppEditTextTheme">
+        <item name="android:textColor">@color/editText_textColor</item>
+        <item name="android:textColorHint">@color/editText_hint_textColor</item>
+        <item name="android:textSize">@dimen/standard_editText_textSize</item>
+    </style>
+
+    <style name="AppButtonTheme">
+        <item name="android:textColor">@color/button_textColor</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/standard_button_textSize</item>
+    </style>
+
+    <declare-styleable name="ProcessButton">
+        <attr name="pb_textProgress" format="string" />
+        <attr name="pb_textComplete" format="string" />
+        <attr name="pb_textError" format="string" />
+        <attr name="pb_colorProgress" format="color" />
+        <attr name="pb_colorComplete" format="color" />
+        <attr name="pb_colorError" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="FlatButton">
+        <attr name="pb_colorPressed" format="color" />
+        <attr name="pb_colorNormal" format="color" />
+        <attr name="pb_cornerRadius" format="dimension" />
+    </declare-styleable>
 
 </resources>

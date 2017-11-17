@@ -1,3 +1,40 @@
 <resources>
-    <string name="app_name">ChatRoomModule</string>
+    <string name="app_name">Chat-Zone</string>
+    <string name="app_tagLine">Keep Talking...</string>
+
+    <string name="facebook_app_id">1997967807148756</string>
+    <string name="fb_login_protocol_scheme">fb1997967807148756</string>
+
+    <!--Alerts-->
+    <string name="alert_no_internet">No internet connection!</string>
+    <string name="alert_account_creation">Your account has been created successfully!</string>
+    <string name="alert_forgot_password">Request has been sent to your register email account</string>
+
+    <!--SplashScreen-->
+    <string name="signUp_label">No account yet? Create one</string>
+    <string name="lbl_forgotPassword">Forgot Password?</string>
+    <string name="googleLoginText">Login with google+</string>
+    <string name="facebookLoginText">Login with facebook</string>
+
+    <!--ForgotPassword-->
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="btn_forgot_password">Send request</string>
+
+
+    <!--Login-->
+    <string name="app_login">Login</string>
+    <string name="login_title">Login</string>
+    <string name="btn_login">Login</string>
+
+    <!--SignUp-->
+    <string name="app_signUp">SignUp</string>
+    <string name="signUp_title">Create a user</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_retypePassword">Retype Password</string>
+    <string name="btn_signUp">SignUp</string>
+    <string name="error_msg_email">Invalid email address</string>
+    <string name="error_msg_password">Invalid password (e.g Aa@123)</string>
+    <string name="error_msg_retype_password">Invalid retype password (e.g Aa@123)</string>
+    <string name="error_msg_mismatched_password">Password does not match</string>
 </resources>
